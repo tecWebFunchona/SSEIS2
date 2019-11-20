@@ -1,0 +1,24 @@
+/*Este es un estilo unico para los contactos para las vistas de la página*/
+
+.servicio-describe{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.icono-top{
+    margin: auto 0;
+    top: 33px;
+}
+
+.espacio-contacto{
+    margin: 0;
+}
+
+.contacto-describe{
+    font-size: 0.9375em;
+    font-weight: 300;
+    margin: 0;
+}

@@ -1,0 +1,122 @@
+<div class="content-wrap">
+  <section id="section-work" class="page-section topmargin">
+
+			<div class="heading-block center">
+						<h2 class="dir">Logros & Reconocimientos</h2>
+						<span>Que se han obtenido por parte de toda la ESCOMunidad.</span>
+					</div>
+
+				<div class="container clearfix center">
+
+					<!-- Posts
+					============================================= -->
+					<div id="posts" class="post-grid post-masonry post-timeline grid-2 clearfix">
+
+						<div class="timeline-border"></div>
+						<div class="entry entry-date-section notopmargin"><span>2017 / 1</span></div>
+            
+            <div class="entry clearfix">
+							<div class="entry-timeline">
+								<div class="timeline-divider"></div>
+							</div>
+							<div class="entry-image">
+								<img class="image_fade" src="images/logros/2016/coatlAplicacionMovil190916.png" alt="COATL">
+							</div>
+							<div class="entry-title">
+								<h2><a>La Cultura Teotihuacana al alcance de un Touch</a></h2>
+							</div>
+							<ul class="entry-meta clearfix">
+								<li><i class="icon-calendar3"></i> 19 sep 2016</li>
+							</ul>
+							<div class="entry-content">
+								<p>Se trata de <em class="negrita">Coatl</em>, que opera como gu&iacute;a de turistas con informaci&oacute;n hist&oacute;rica, actividades recreativas, ecoturismo, eventos culturales, as&iacute; como una tienda en l&iacute;nea de artesan&iacute;as y recuerdos.</p>
+								<a href="docs/logros/2016/coatlAplicacionMovil190916.pdf" class="more-link" target="_blank">Gaceta Polit&eacute;cnica [190916]</a>
+							</div>
+						</div>
+
+
+ 						<div class="entry clearfix">
+							<div class="entry-timeline">
+								<div class="timeline-divider"></div>
+							</div>
+							<div class="entry-image">
+								<img class="image_fade" src="images/logros/2016/verificentroMovil290816.png" alt="Verificentro M&oacute;vil">
+							</div>
+							<div class="entry-title">
+								<h2><a>Evaluaci&oacute;n expr&eacute;s de Auto mediante Verificentro M&oacute;vil</a></h2>
+							</div>
+							<ul class="entry-meta clearfix">
+								<li><i class="icon-calendar3"></i> 29 ago 2016</li>
+							</ul>
+							  <div class="entry-content">
+							    <p>Daybelis Jaramillo Olivares y Jorge Salinas Lara son los creadores del <em class="negrita">Sarcomotor</em> que analiza en tan s&oacute;lo 90 segundos la cantidad de mon&oacute;xido y di&oacute;xido de carbono que emiten los autom&oacute;viles.</p>
+							    <a href="docs/logros/2016/sarcomotorVerificentroMovil290816.pdf" target="_blank" class="more-link">Gaceta Polit&eacute;cnica [290816]</a> 
+                </div>
+              </div>
+
+					</div><!-- #posts end -->
+
+<!-- Esta parte de código se comenta el 15 de junio debido a que más adelante valoraré si es necesario darle funcionalidad al botón de load more -->
+<!-- Se actviva el botón de cargar más pero como un archivo externo para evitar tanta información en la página inicial -->
+
+					<div id="load-next-posts" class="center">
+						<a href="contenido/logrosReconocimientos.php" class="button button-3d button-dark button-large button-rounded">Ver m&aacute;s...</a>
+					</div>
+
+					<script type="text/javascript">
+						jQuery(window).load(function(){
+							var $container = $('#posts');
+
+							$container.isotope({
+								itemSelector: '.entry',
+								masonry: {
+									columnWidth: '.entry:not(.entry-date-section)'
+								}
+							});
+
+							/*$container.infinitescroll({
+								loading: {
+									finishedMsg: '<i class="icon-line-check"></i>',
+									msgText: '<i class="icon-line-loader icon-spin"></i>',
+									img: "images/preloader-dark.gif",
+									speed: 'normal'
+								},
+								state: {
+									isDone: false
+								},
+								nextSelector: "#load-next-posts a",
+								navSelector: "#load-next-posts",
+								itemSelector: "div.entry",
+								behavior: 'portfolioinfiniteitemsloader'
+							},
+							function( newElements ) {
+								$container.isotope( 'appended', $( newElements ) );
+								var t = setTimeout( function(){ $container.isotope('layout'); }, 2000 );
+								SEMICOLON.initialize.resizeVideos();
+								SEMICOLON.widget.loadFlexSlider();
+								SEMICOLON.widget.masonryThumbs();
+								var t = setTimeout( function(){
+									SEMICOLON.initialize.blogTimelineEntries();
+								}, 2500 );
+							});
+
+							var t = setTimeout( function(){
+								SEMICOLON.initialize.blogTimelineEntries();
+							}, 2500 );
+							*/
+
+							$(window).resize(function() {
+								$container.isotope('layout');
+								var t = setTimeout( function(){
+									SEMICOLON.initialize.blogTimelineEntries();
+								}, 2500 );
+							});
+
+						});
+
+					</script>
+
+				</div>
+
+		</section><!-- #content end -->
+</div>

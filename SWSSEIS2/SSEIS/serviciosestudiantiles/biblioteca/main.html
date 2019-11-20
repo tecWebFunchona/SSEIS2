@@ -1,0 +1,177 @@
+<br>
+<div class="container">
+    <!-- Bienvenidos-->
+    <div class="row ">
+        <div class="col-md-12 bienvenido">
+            <h1 class="azul">Bienvenidos</h1>
+            <p class="letra-homogenea-parrafo">
+                En la biblioteca nuestro objetivo es facilitar a la comunidad de ESCOM el acceso a libros, bases de
+                datos y publicaciones especializadas, a través de la Red Institucional de Bibliotecas y el uso de
+                las tecnologías de la información y comunicación, con el fin de favorecer la generación del
+                conocimiento y el desarrollo de la investigación científica y tecnológica.
+            </p>
+        </div>
+    </div>
+    <!--Slider-->
+    <div class="row">
+        <h2 class="text-center azul">Biblioteca</h2>
+        <div class="col-md-10 col-md-offset-1">
+            <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                <!--Indicadores-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-1" data-slide-to="1"></li>
+                    <li data-target="#carousel-1" data-slide-to="2"></li>
+                </ol>
+                <!--Contenedores de los slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/01.jpg" alt="Entrada a la biblioteca" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/02.jpg" alt="Dentro de la biblioteca" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/03.jpg" alt="Pasillo de la biblioteca" class="img-responsive">
+                    </div>
+                </div>
+                <!--Controles-->
+                <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Buscadores-->
+    <h2 class="azul text-center">Buscador de información</h2>
+    <br>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="borde">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs color-boton" role="tablist">
+                    <li role="presentation">
+                        <a href="#bc" role="tab" data-toggle="tab" class="tab-color">Búsqueda Básica</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#bd" role="tab"  data-toggle="tab" class="tab-color">Catálogo IPN</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#bt" role="tab" data-toggle="tab" class="tab-color">Búsqueda IPN/Tesis Institucionales</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#br" role="tab" data-toggle="tab" class="tab-color">Recursos Electrónicos</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#brev" role="tab" data-toggle="tab" class="tab-color">Revistas y Libros</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="http://rc9kc2hb9u.search.serialssolutions.com/?SS_Page=refiner" target="_blank" class="visitado">Indíce de citas</a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane blanco active" id="bc">
+                        <br><br>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-3 azul lead center" for="bconricyt">Buscador:</label>
+                                <div class="container">
+                                    <div class="col-xs-9 col-sm-7">
+                                        <input type="text" class="form-control" id="bconricyt" placeholder="Ingresa una palabra o frase"/>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-2">
+                                        <a id="busquedaconricyt" class="btn color-boton blanco">
+                                            <i class="icon-line-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane blanco" id="bd">
+                        <br><br>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-3 azul lead center" for="bdigital">Buscador:</label>
+                                <div class="container">
+                                    <div class="col-xs-9 col-sm-7">
+                                        <input type="text" class="form-control" id="bdigital" placeholder="Ingresa una palabra o frase">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-2">
+                                        <a id="busquedadigital" class="btn color-boton blanco">
+                                            <i class="icon-line-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane blanco" id="bt">
+                        <br><br>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-3 azul lead center" for="btesis">BUSCADOR DE TESIS:</label>
+                                <div class="container">
+                                    <div class="col-xs-9 col-sm-7">
+                                        <input type="text" class="form-control" id="btesis" placeholder="Buscar tesis en el IPN">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-2">
+                                        <a id="busquedatesis" class="btn color-boton blanco">
+                                            <i class="icon-line-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane blanco" id="br">
+                        <br><br>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-3 azul lead center" for="brepo">BUSCADOR:</label>
+                                <div class="container">
+                                    <div class="col-xs-9 col-sm-7">
+                                        <input type="text" class="form-control" id="brepo" placeholder="Buscar en el repositorio digital del IPN">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-2">
+                                        <a id="busquedarepositorio" class="btn color-boton blanco">
+                                            <i class="icon-line-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane blanco" id="brev">
+                        <br><br>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-3 azul lead center" for="brevista">BUSCADOR:</label>
+                                <div class="container">
+                                    <div class="col-xs-9 col-sm-7">
+                                        <input type="text" class="form-control" id="brevista" placeholder="Buscar revistas y/o libros">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-2">
+                                        <a id="busquedarevistas" class="btn color-boton blanco">
+                                            <i class="icon-line-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>

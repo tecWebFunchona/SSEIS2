@@ -1,0 +1,113 @@
+/*Estos son los estilos para el departamento de extensión y apoyos educativos*/
+
+@media screen and (min-width: 319px) and (max-width: 768px) {
+    .centra-div{
+        margin: 0 auto;
+    }
+
+    .card {
+        max-width: 245px;
+        max-height: inherit;
+    }
+
+    .card:first-child, .card:nth-child(2){
+        background: #00c4c7;
+        height: 8px;
+        border-radius: 5px 5px 0 0;
+        padding: 0;
+        box-shadow: none;
+    }
+    .card:first-child {
+        margin: 0 10px 0 10px;
+        background: #00b0b2;
+    }
+    .card:nth-child(2) {
+        margin: 0 5px;
+    }
+
+    .inner-container {
+        max-width: 10%;
+        min-width: 260px;
+        height: auto;
+        width: 100%;
+        margin: 0 auto 100px;
+    }
+
+    .content {
+        opacity: 0;
+        top: 2em;
+        left: 10%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .active {
+        display: block !important;
+        margin: 0 auto;
+        opacity: 1;
+        transition: ease-in-out 1s;
+    }
+
+    .card .progress-container {
+        background: rgba(37, 117, 252, 0.2);
+        height: 6px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+    }
+    .card .progress-container .step {
+        background-color: #2575fc;
+        height: 6px;
+        width: 33%;
+        border-radius: 0 0 0 5px;
+    }
+
+    .h1-tag {
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+        color: #00bfc2;
+        margin: 0;
+    }
+
+    .p-tag {
+        margin-top: 0 ;
+    }
+
+    .a-tag {
+        color: #FFF;
+        text-decoration: none;
+        position: relative;
+        top:-10px;
+    }
+    .a-tag:before {
+        content: '';
+        bottom: 2px;
+        left: 0;
+        width: 0%;
+        border-bottom: 2px solid #00CED1;
+        transition: 0.3s;
+    }
+    .a-tag:hover:before {
+        width: 80%;
+    }
+
+    /*Caja box */
+
+    .caja-box {
+        max-width: 240px;
+        height: auto;
+        max-height:inherit;
+        background: #fff;
+        margin: 10px;
+    }
+
+    .letra-2{
+        margin-bottom: 20px;
+        font-size: 22px !important;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+}

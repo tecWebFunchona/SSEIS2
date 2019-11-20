@@ -1,0 +1,154 @@
+/*Estilos para la página de la ESCOM*/
+
+#primary-menu ul li a{
+    font-family: sans-serif !important;
+}
+
+.escomazul{
+    color: #069 !important;
+}
+
+.grisescom{
+    color:#6D6D6D !important;
+}
+
+span.gris-escom,span.gris-escom:hover,span.gris-escom:active,span .gris-escom:visited{
+    color:#6D6D6D !important;
+}
+
+/*Espacio de sublistas*/
+
+/*ul{
+    padding-left: 20px;
+    margin: 5px;
+}*/
+
+/*Centra un div*/
+.centra-div{
+    margin-left: 25px !important
+}
+
+/*Centrar una imagen*/
+
+.img-center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border: none;
+}
+
+/*Borde del video*/
+.borde-video{
+    border-radius: 15px;
+}
+
+/*Caja box */
+
+.caja-box {
+    width: 280px;
+    height: 500px;
+    background: #fff;
+    border: 10px;
+    border-radius:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 14px 26px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.caja-box p{
+    font-size: 24px;
+    color: #069;
+    margin: 0 auto;
+}
+
+
+/*Estilos de propiedad intelectual*/
+.nota{
+    color: #F00;
+    padding-top: 30px !important;
+}
+
+/*Letra del sitio sseis*/
+.letra-homogenea-parrafo{
+    margin-bottom: 20px;
+    font-size: 20px !important;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.titulo{
+    margin-bottom: 20px;
+    font-size: 25px !important;
+    font-weight: 400;
+}
+
+.letra-2{
+    margin-bottom: 20px;
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/*Imagen de Maestra Idalia e Imagen de jefe de departamento principal */
+.imagen-idalia, .imagen-departamento{
+    margin-left:35px;
+    margin-top:35px;
+}
+
+/*Imagen del jefe de departamento*/
+.imagen{
+    width: 100%;
+}
+
+/*Contacto
+
+.descripcion{
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+*/
+.descripcion{
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+/*Contacto*/
+.descripcion-2{
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+/*Descripcion importante*/
+.descripcion-importante{
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+/*Centra el contacto*/
+.centra-contacto{
+    left: 8em;
+}
+
+/*Descripción de los servicios*/
+.servicio-describe{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.padding-list{
+    padding: 0 25px;
+    line-height: 1.2;
+}
+
+.padding-list ol li ol{
+    padding: 0 45px;
+    line-height: 1.2;
+}

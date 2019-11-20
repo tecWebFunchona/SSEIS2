@@ -1,0 +1,87 @@
+/*Estos estilos funcionan para la versión móvil en el navegador*/
+
+/*Dispositivos Moviles*/
+@media(min-width: 319px) and (max-width: 767px){
+
+    .material-card {
+        position: relative;
+        height: 0;
+        padding-bottom: calc(100% - 15px);
+        margin-bottom: 8.6em;
+    }
+
+    .material-card .img-container {
+        overflow: hidden;
+        position: absolute;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .material-card .mc-btn-action,.material-card .mc-btn-action1 {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .material-card h2{
+        width: 100% !important;
+        font-size: 200%;
+    }
+
+    .letra-homogenea-parrafo{
+        margin-bottom: 20px;
+        font-size: 18px !important;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+
+    .titulo{
+        margin-bottom: 20px;
+        font-size: 25px !important;
+        font-weight: 400;
+    }
+
+    /*Espacio entre la foto de la maestra Idalia*/
+    .espacio{
+        margin-top:5px;
+    }
+    /*Imagen del jefe de departamento*/
+    .imagen{
+        width: 100%;
+        height: auto;
+    }
+
+    /*Imagen de Maestra Idalia e Imagen de jefe de departamento principal */
+    .imagen-idalia, .imagen-departamento{
+        margin-left:40px;
+    }
+
+    /*Contacto*/
+    .descripcion{
+        font-size: 1.3em;
+        font-weight: 300;
+        line-height: 1.9;
+    }
+    .descripcion-2{
+        font-size: 1.45em;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+    /*Descripcion importante*/
+    .descripcion-importante{
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
+
+    .centra-contacto{
+        left: 0.3em;
+    }
+
+    /*Centra un div*/
+    .centra-div{
+        margin: 0 auto;
+    }
+}
+
+

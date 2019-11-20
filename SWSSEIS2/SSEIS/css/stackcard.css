@@ -1,0 +1,96 @@
+.inner-container {
+    position: relative;
+    max-width: 20%;
+    min-width: 360px;
+    height: 350px;
+    width: 100%;
+    margin: 0 auto 100px;
+}
+
+.content {
+    position: absolute;
+    opacity: 0;
+    top: 2em;
+    left: 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.active {
+    display: block !important;
+    margin: 0 auto;
+    opacity: 1;
+    transition: ease-in-out 1s;
+}
+
+.card {
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    padding: 2em 0;
+    height: 420px;
+    width: auto;
+    box-sizing: border-box;
+    transition: .3s ease;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.35);
+}
+.card:first-child, .card:nth-child(2){
+    background: #00c4c7;
+    height: 8px;
+    border-radius: 5px 5px 0 0;
+    padding: 0;
+    box-shadow: none;
+}
+.card:first-child {
+    margin: 0 20px;
+    background: #00b0b2;
+}
+.card:nth-child(2) {
+    margin: 0 10px;
+}
+
+.card .progress-container {
+    background: rgba(37, 117, 252, 0.2);
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+}
+.card .progress-container .step {
+    background-color: #2575fc;
+    height: 6px;
+    width: 33%;
+    border-radius: 0 0 0 5px;
+}
+
+.h1-tag {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #00bfc2;
+    margin: 0;
+}
+
+.p-tag {
+    margin-top: 0 ;
+}
+
+.a-tag {
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+}
+.a-tag:before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #00CED1;
+    transition: 0.3s;
+}
+.a-tag:hover:before {
+    width: 80%;
+}

@@ -1,0 +1,103 @@
+/*Estilos para la biblioteca de la ESCOM*/
+
+a div, ul li a{
+    color: #FFF;
+}
+
+.borde{
+    border: 0.3px #069 solid;
+}
+
+ul li[role="presentation"] a:hover, ul li[role="presentation"] a:active{
+    color: #069;
+    background-color: #FFF !important;
+}
+
+.escomazul{
+    color: #069 !important;
+}
+
+.blanco{
+    color: #FFF !important;
+}
+
+span.gris-escom,span.gris-escom:hover,span.gris-escom:active,span .gris-escom:visited{
+    color:#6D6D6D !important;
+}
+
+.gris{
+    background-color: #6D6D6D !important;
+}
+
+/*Centrar una imagen*/
+
+.img-center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border: none;
+}
+
+/*Lista*/
+.lista{
+    margin-left: 15px;
+}
+
+/*Enlaces*/
+
+.mini-margin-top{
+    margin-top: 20px !important;
+}
+
+.color-boton{
+    background-color: #069 !important;
+}
+
+/*Letra del sitio sseis*/
+.letra-homogenea-parrafo{
+    margin-bottom: 20px;
+    font-size: 20px !important;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.buscador{
+    margin-left: 0px;
+}
+
+/*Contacto*/
+.descripcion{
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/*Contacto*/
+.descripcion-2{
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 319px) and (max-width: 767px){
+
+    .logoESCOM{
+        width: 70px !important;
+        height: 55px !important;
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+
+    /*Contacto*/
+    .descripcion{
+        font-size: 1.3em;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+
+    .descripcion-2{
+        font-size: 0.8em;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+}
