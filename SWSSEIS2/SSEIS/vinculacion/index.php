@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="../css/seisresponsive.css" type="text/css" />
     <link rel="stylesheet" href="../css/estilocontacto.css" type="text/css" />
     <link rel="stylesheet" href="../../css/escom.css" type="text/css">
+    <link rel="stylesheet" href="../css/index.css" type="text/css">
+   
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 

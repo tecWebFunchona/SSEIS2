@@ -36,7 +36,8 @@
     <link rel="stylesheet" href="../../../css/escom.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/video-js.css">
-    <link rel="stylesheet" href="css/estilos2.css">    
+    <link rel="stylesheet" href="css/estilos2.css"> 
+    <link rel="stylesheet" href="../../css/index.css" type="text/css">   
 
   
     <!-- External JavaScripts

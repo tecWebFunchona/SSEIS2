@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="../../css/estilosescom.css" type="text/css" />
     <link rel="stylesheet" href="../../css/estilocontacto.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/escom.css" type="text/css">
+    <link rel="stylesheet" href="../../css/index.css" type="text/css"> 
     
 
 
