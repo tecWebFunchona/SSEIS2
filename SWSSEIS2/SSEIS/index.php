@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="css/estilocontacto.css" type="text/css" />
    <link rel="stylesheet" href="css/seisresponsive.css" type="text/css" />
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css"/>
-    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+   <link rel="stylesheet" href="css/index.css" type="text/css"/>
     
     
 

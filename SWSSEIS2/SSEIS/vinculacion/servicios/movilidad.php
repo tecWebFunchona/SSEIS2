@@ -84,7 +84,7 @@
     <h1 class="escomazul page-header text-center">Movilidad Acad&eacute;mica</h1>
     <div class="video-wrap">
 			<video class="fm-video video-js vjs-fluid placeholder" controls preload="auto" data-setup="{}" controls id="fm-video">
-			<source src="../../../images/videos/movilidad.mp4" type="video/mp4">
+			<source src="../../images/video/movilidad.mp4" type="video/mp4">
 	</video>
 			
     </div>

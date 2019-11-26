@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="../../css/estilosescom.css" type="text/css" />
     <link rel="stylesheet" href="../../css/estilocontacto.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/escom.css" type="text/css">
-
+    <link rel="stylesheet" href="../../css/index.css" type="text/css" />
     <!-- External JavaScripts
     ============================================= -->
     <script type="text/javascript" src="../../../js/jquery-2.1.4.min.js"></script>
