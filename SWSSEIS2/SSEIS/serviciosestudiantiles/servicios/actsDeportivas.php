@@ -2,9 +2,7 @@
 <html lang="es">
 <head>
     <!--
-         User: alanhernandez
-         Date: 17/07/17
-        Time: 16:00
+        
     -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta property="og:url" content="http://www.isc.escom.ipn.mx" />
@@ -23,7 +21,7 @@
 
     <!-- Hojas de Estilos
     ============================================= -->
-
+    
     <link rel="stylesheet" href="../../../css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/dark.css" type="text/css" />
@@ -32,9 +30,12 @@
     <link rel="stylesheet" href="../../../css/magnific-popup.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/responsive.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/colors.css" type="text/css" />
-    <link rel="stylesheet" href="../../css/seisresponsive.css" type="text/css" />
     <link rel="stylesheet" href="../../css/estilosescom.css" type="text/css" />
     <link rel="stylesheet" href="../../css/estilocontacto.css" type="text/css" />
+    <link rel="stylesheet" href="../../../css/escom.css" type="text/css">
+    <link rel="stylesheet" href="../../css/index.css" type="text/css">
+
+  
 
     <!-- JavaScripts Externos
     ============================================= -->
@@ -50,24 +51,27 @@
     <a id="inicio"></a>
     <!-- Barra del Gobierno
     ============================================= -->
-    <?php include("../../../menus/menuGob.html"); ?>
+    <?php include("../../../htmls/comunes/menuGobMx.html"); ?>
     <!-- Encabezado de la ESCOM
     ============================================= -->
-    <header id="header" class="sticky-style-2">
-        <?php include("../../../menus/menuInstitucional.html"); ?>
-        <?php include("../../../menus/menuESCOM.html"); ?>
-    </header>
+    <header id="header" class="sticky-style-3" data-sticky-offset="110">
+            <div class="container clearfix">
+               <div id="menuSEPIPN"><?php include("../../../htmls/comunes/menuSEPIPN.html"); ?></div>
+            </div>
+            <div id="header-wrap">
+                <div id="menuESCOM"><?php include("../../../htmls/comunes/menuESCOM.html"); ?></div>
+            </div>
+        </header>
+   
     <!-- Contenido
     ============================================= -->
     <?php include "../contenido/deportivas.html"?>
 
     <!--  Sección del pie  -->
     <footer id="footer" class="dark">
-        <?php
-        include("../../../contenido/pie.html");
-        include("../../../contenido/pieGob.html");
-        ?>
-        <!-- Fin de Sección del pie  -->
+        <?php include("../../../htmls/comunes/pie.html"); ?>
+          
+            <!-- Fin de Sección del pie  -->
     </footer>
     <!-- Scripts del pie de página
     ============================================= -->

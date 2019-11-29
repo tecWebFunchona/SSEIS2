@@ -32,9 +32,11 @@
     <link rel="stylesheet" href="../../../css/magnific-popup.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/responsive.css" type="text/css" />
     <link rel="stylesheet" href="../../../css/colors.css" type="text/css" />
-    <link rel="stylesheet" href="./css/estilosescom.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/estilosescom.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/estilocontacto.css" type="text/css" />
+    <link rel="stylesheet" href="../../../css/escom.css" type="text/css">
+    <link rel="stylesheet" href="../../css/index.css" type="text/css">
     <link rel="stylesheet" href="./css/sweetalert.css" type="text/css" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Javascripts Externos
@@ -54,14 +56,18 @@
     <a id="inicio"></a>
     <!-- Barra del gobierno superior
         ============================================= -->
-    <?php include("../../../menus/menuGob.html"); ?>
+        <?php include("../../../htmls/comunes/menuGobMx.html"); ?>
 
     <!-- Encabezado del IPN y ESCOM
         ============================================= -->
-    <header id="header" class="sticky-style-2">
-        <?php include("../../../menus/menuInstitucional.html"); ?>
-        <?php include("menu.html"); ?>
-    </header>
+        <header id="header" class="sticky-style-3" data-sticky-offset="110">
+            <div class="container clearfix">
+               <div id="menuSEPIPN"><?php include("../../../htmls/comunes/menuSEPIPN.html"); ?></div>
+            </div>
+            <div id="header-wrap">
+                <div id="menuESCOM"><?php include("../../../htmls/comunes/menuESCOM.html"); ?></div>
+            </div>
+        </header>
 
     <!-- Contenido
         ============================================= -->
@@ -69,13 +75,10 @@
 
     <!--  Sección del pie  -->
     <footer id="footer" class="dark">
-        <?php
-        include("../../../contenido/pie.html");
-        include("../../../contenido/pieGob.html");
-        ?>
-        <!-- Fin de Sección del pie  -->
+        <?php include("../../../htmls/comunes/pie.html"); ?>
+          
+            <!-- Fin de Sección del pie  -->
     </footer>
-
     <!-- Javascripts del pie de página
         ============================================= -->
     <script src="https://use.fontawesome.com/63277dbbde.js"></script>
